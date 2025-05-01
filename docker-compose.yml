@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  locust-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./output_docker:/app/output_docker
+    environment:
+      - PYTHONUNBUFFERED=1

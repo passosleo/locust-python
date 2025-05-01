@@ -1,0 +1,9 @@
+Method,Name,Error,Occurrences
+GET,/codegame/index.html,HTTPError('403 Client Error: Forbidden for url: /codegame/index.html'),570
+GET,/colors/colors_picker.asp,HTTPError('403 Client Error: Forbidden for url: /colors/colors_picker.asp'),530
+GET,/css/,"ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)",1
+GET,/tryit/trycompiler.asp?filename=demo_python,HTTPError('403 Client Error: Forbidden for url: /tryit/trycompiler.asp?filename=demo_python'),553
+GET,/html/,HTTPError('403 Client Error: Forbidden for url: /html/'),1593
+GET,/js/,HTTPError('403 Client Error: Forbidden for url: /js/'),1126
+GET,/,HTTPError('403 Client Error: Forbidden for url: /'),2272
+GET,/css/,HTTPError('403 Client Error: Forbidden for url: /css/'),1612
